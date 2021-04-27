@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Anamoly Delivery Boy</string>
+    <string name="navigation_drawer_open">Öppna navigationslådan</string>
+    <string name="navigation_drawer_close">Stäng navigeringslådan</string>
+    <string name="action_settings">inställningar</string>
+
+    <string name="error_field_required">Detta fält är obligatoriskt</string>
+    <string name="error_password_short">Lösenordet måste innehålla mins 6 tecken</string>
+    <string name="error_phone_short">Telefonnummer är för kort</string>
+
+    <string name="menu_home">Hem</string>
+    <string name="menu_gallery">Galleri</string>
+    <string name="menu_slideshow">Bildspel</string>
+
+    <string name="home_second">Andra Hem</string>
+    <string name="title_activity_maps">Karta</string>
+    <string name="profile">Profil</string>
+    <string name="recent_orders">Nylagda Beställningar</string>
+    <string name="completed_orders">Genomförda Beställningar</string>
+    <string name="location">Plats</string>
+    <string name="order_picked">Order Plockade</string>
+    <string name="order_id">Order Id:</string>
+    <string name="assigned_orders">Tilldelade Order:</string>
+    <string name="delivered">Levereras</string>
+    <string name="order_items">Beställ Artiklar</string>
+    <string name="product">Produkt</string>
+    <string name="qty">Antal</string>
+    <string name="total_qty">Totalt Antal:</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="password">Lösenord</string>
+    <string name="login">Logga in</string>
+    <string name="to">till</string>
+
+    <string name="change_password">Ändra lösenord</string>
+    <string name="old_password">Gammalt lösenord</string>
+    <string name="new_password">Nytt lösenord</string>
+    <string name="confirm_new_password">Bekräfta nytt lösenord</string>
+    <string name="submit">Skicka in</string>
+    <string name="confirm_password_does_t_match_with_new_password">Bekräfta lösenordet matchar inte det nya lösenordet</string>
+    <string name="password_changed_successfully">lösenordet har ändrats</string>
+    <string name="order_details">Orderdetaljer</string>
+    <string name="call">Ring upp</string>
+    <string name="order_location">order Plats</string>
+    <string name="your_location">Din plats</string>
+    <string name="delivery_boy_login">Leverans Boy Logga in</string>
+    <string name="note_login_details_only_provided_by_administrator">Obs: Inloggningsuppgifter endast tillhandahålls av administratören.</string>
+    <string name="delivery_date">Leveransdatum:</string>
+    <string name="delivery_time">Leveranstid:</string>
+    <string name="pick_order">Välj order</string>
+    <string name="full_name">Fullständiga namn</string>
+    <string name="email_id">E-post ID</string>
+    <string name="id_proof">ID Bevis</string>
+    <string name="licence_no">Licens Nej</string>
+    <string name="available">Tillgängliga</string>
+    <string name="english">Engelsk</string>
+    <string name="tracking_on">Spårning på</string>
+    <string name="this_notification_disappear_after_all_item_delivered">Denna anmälan försvinner efter alla artiklar har levererats</string>
+    <string name="swedish">Svenska</string>
+    <string name="id_photo">ID-foto</string>
+    <string name="licence_photo">Licensfoto</string>
+
+</resources>

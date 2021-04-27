@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Anamoly Delivery Boy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_password_short">Password must be at least 6 Characters</string>
+    <string name="error_phone_short">Phone Number is too short</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="profile">Profile</string>
+    <string name="recent_orders">Recent Orders</string>
+    <string name="completed_orders">Completed Orders</string>
+    <string name="location">Location</string>
+    <string name="order_picked">Order Picked</string>
+    <string name="order_id">Order ID:</string>
+    <string name="assigned_orders">Assigned Orders:</string>
+    <string name="delivered">Delivered</string>
+    <string name="order_items">Order Items</string>
+    <string name="product">Product</string>
+    <string name="qty">Qty</string>
+    <string name="total_qty">Total Qty:</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="to">to</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_password_does_t_match_with_new_password">Confirm password does\'t match with new password</string>
+    <string name="password_changed_successfully">Password changed successfully</string>
+    <string name="order_details">Order Details</string>
+    <string name="call">Call</string>
+    <string name="order_location">Order Location</string>
+    <string name="your_location">Your location</string>
+    <string name="delivery_boy_login">Delivery Boy Login</string>
+    <string name="note_login_details_only_provided_by_administrator">Note: Login details only provided by administrator.</string>
+    <string name="delivery_date">Delivery Date:</string>
+    <string name="delivery_time">Delivery Time:</string>
+    <string name="pick_order">Pick Order</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email Address</string>
+    <string name="id_proof">ID Proof</string>
+    <string name="licence_no">Licence No</string>
+    <string name="available">Available</string>
+    <string name="english">English</string>
+    <string name="tracking_on">Tracking On</string>
+    <string name="this_notification_disappear_after_all_item_delivered">This notification disappear after all items have been delivered.</string>
+    <string name="swedish">Swedish</string>
+    <string name="id_photo">ID Photo</string>
+    <string name="licence_photo">Licence Photo</string>
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_banner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_10"
+            android:text="@string/delivery_boy_login"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_18"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_login_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_30"
+            android:layout_marginEnd="@dimen/space_20"
+            android:autofillHints="@string/phone_number"
+            android:background="@drawable/xml_rounded_border_gray"
+            android:elevation="3dp"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="number"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:padding="@dimen/space_10"
+            android:textCursorDrawable="@null"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_marginEnd="@dimen/space_20"
+            android:autofillHints="@string/password"
+            android:background="@drawable/xml_rounded_border_gray"
+            android:elevation="3dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:padding="@dimen/space_10"
+            android:textCursorDrawable="@null" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_marginEnd="@dimen/space_20"
+            android:background="@drawable/xml_view_rounded_green"
+            android:text="@string/login"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_marginEnd="@dimen/space_20"
+            android:background="@drawable/xml_rounded_border_gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_5">
+
+            <TextView
+                android:id="@+id/tv_login_dutch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/xml_gray_purpel_selector"
+                android:gravity="center"
+                android:padding="@dimen/space_10"
+                android:text="@string/swedish"
+                android:textColor="@color/xml_black_white"
+                android:textSize="@dimen/text_18" />
+
+            <TextView
+                android:id="@+id/tv_login_english"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/xml_gray_purpel_selector"
+                android:gravity="center"
+                android:padding="@dimen/space_10"
+                android:text="@string/english"
+                android:textColor="@color/xml_black_white"
+                android:textSize="@dimen/text_18" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/space_20"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_marginEnd="@dimen/space_20"
+            android:layout_marginBottom="@dimen/space_30"
+            android:text="@string/note_login_details_only_provided_by_administrator"
+            android:textColor="@color/colorBlack" />
+
+    </LinearLayout>
+
+</ScrollView>

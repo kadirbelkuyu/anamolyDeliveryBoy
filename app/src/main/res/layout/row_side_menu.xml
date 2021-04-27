@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/space_20"
+    android:paddingTop="@dimen/space_10"
+    android:paddingEnd="@dimen/space_10"
+    android:paddingBottom="@dimen/space_10">
+
+    <TextView
+        android:id="@+id/tv_side_menu_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:textSize="@dimen/text_18" />
+
+    <ImageView
+        android:id="@+id/iv_side_menu_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_right"
+        tools:ignore="ContentDescription" />
+
+    <Switch
+        android:id="@+id/sw_side_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/checkbox_filter_tint"
+        android:checked="false"
+        android:clickable="false" />
+
+</LinearLayout>

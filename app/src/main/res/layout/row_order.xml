@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_order"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/space_10"
+    android:layout_marginEnd="@dimen/space_10"
+    android:transitionName="animListtodetail"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardCornerRadius="@dimen/space_10"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="@dimen/space_10">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_order_marker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_marker"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv_order_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_10"
+                android:gravity="start"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_12"
+                app:layout_constraintEnd_toStartOf="@id/iv_order_arrow"
+                app:layout_constraintStart_toEndOf="@id/iv_order_marker"
+                app:layout_constraintTop_toTopOf="@id/iv_order_marker" />
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:text="@string/order_id"
+                android:textAllCaps="true"
+                android:textSize="@dimen/text_12"
+                app:layout_constraintStart_toStartOf="@id/tv_order_address"
+                app:layout_constraintTop_toBottomOf="@id/tv_order_address" />
+
+            <TextView
+                android:id="@+id/tv_order_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/order_id"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_12"
+                app:layout_constraintBottom_toBottomOf="@id/line1"
+                app:layout_constraintEnd_toStartOf="@id/iv_order_arrow"
+                app:layout_constraintStart_toEndOf="@id/line1"
+                app:layout_constraintStart_toStartOf="@id/tv_order_date_time"
+                app:layout_constraintTop_toTopOf="@id/line1" />
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:text="@string/delivery_date"
+                android:textSize="@dimen/text_12"
+                app:layout_constraintStart_toStartOf="@id/tv_order_address"
+                app:layout_constraintTop_toBottomOf="@id/tv_order_id" />
+
+            <TextView
+                android:id="@+id/tv_order_date_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_10"
+                android:gravity="start"
+                android:maxLines="1"
+                android:text="@string/order_id"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_12"
+                app:layout_constraintBottom_toBottomOf="@id/line3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/line3"
+                app:layout_constraintTop_toTopOf="@id/line3" />
+
+            <TextView
+                android:id="@+id/line4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:text="@string/delivery_time"
+                android:textSize="@dimen/text_12"
+                app:layout_constraintStart_toStartOf="@id/tv_order_address"
+                app:layout_constraintTop_toBottomOf="@id/tv_order_date_time" />
+
+            <TextView
+                android:id="@+id/tv_order_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:maxLines="1"
+                android:text="@string/order_id"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/text_12"
+                app:layout_constraintBottom_toBottomOf="@id/line4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/tv_order_date_time"
+                app:layout_constraintTop_toTopOf="@id/line4" />
+
+            <ImageView
+                android:id="@+id/iv_order_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_right"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/view_order_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_1"
+            android:layout_marginTop="@dimen/space_5"
+            android:layout_marginBottom="@dimen/space_5"
+            android:background="@color/colorBG" />
+
+        <LinearLayout
+            android:id="@+id/ll_order_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_order_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/location"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_5"
+                    android:autoSizeMaxTextSize="@dimen/text_16"
+                    android:autoSizeMinTextSize="@dimen/text_12"
+                    android:autoSizeTextType="uniform"
+                    android:maxLines="1"
+                    android:text="@string/location"
+                    android:textSize="@dimen/text_16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_order_pickup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/order_picked"
+                    android:src="@drawable/ic_order_picked" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_5"
+                    android:autoSizeMaxTextSize="@dimen/text_16"
+                    android:autoSizeMinTextSize="@dimen/text_12"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/pick_order"
+                    android:textSize="@dimen/text_16" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
